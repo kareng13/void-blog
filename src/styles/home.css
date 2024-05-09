@@ -1,0 +1,146 @@
+/* HOME */
+.main-content-home{
+    padding: 1rem 3.8rem;
+}
+.home-container .title-home h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 3.3rem;
+  }
+  .card-home-content{
+    border-radius: 0;
+    border: none;
+  }
+  .card-body .card-date-home{
+    font-size: 12px;
+    padding: 1.3rem 0;
+    color: #000000b1;
+    line-height: normal;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .card-body .card-title-home-bg{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    overflow: hidden;
+  } 
+  .card-body .card-title-home-bg:hover{
+  color: #e7222c;
+  } 
+  .card-home-history-week-container{
+  margin-top: 4rem;
+  position: relative;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2.8rem;
+  }
+  .card-home-history-week-container img{
+    width: 100%;
+    height: 729px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .card-img-overlay h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 9.5rem;
+    padding-bottom: 5.5rem;
+  }
+  .card-img-overlay span{
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+  }
+  .card-img-overlay p{
+    margin-top: 1.8rem;
+    line-height: 1.4;
+    padding: 0 16rem;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .card-img-overlay p:hover{
+    color: #000;
+    transition: 0.3s ease;
+  }
+  .card-home-popular-container .title-home-popular h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 3.3rem;
+  }
+  .card-popular-hm{
+    border-radius: 0;
+    border: none;
+  }
+  .card-popular-hm .card-body h2{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .card-body a:hover h2,
+  .card-body a:hover .card-text-popular{
+    color: #e7222c;
+  }
+  .card-popular-hm .card-body .date-popular-home{
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    padding: 1.3rem 0;
+    color: #000000b1;
+  }
+  .card-popular-hm .card-body .card-text-popular{
+    font-size: 16px;
+    padding: 1.3rem 0;
+    color: #000000b1;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita el texto a 2 líneas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    max-height: calc(2.3rem * 2); 
+  }
+  /* MEDIAS */
+  @media (max-width:1281px) {
+    .card-img-overlay p {
+      font-size: 45px;
+      margin-top: 1.2rem;
+      transition: 0.5s ease;
+    }
+  }
+
+  @media (max-width:1060px) {
+    .card-img-overlay p {
+      line-height: 1.4;
+      padding: 0 10rem;
+      transition: 0.5s ease;
+
+    }
+  }
+  @media (max-width:864px) {
+    .card-img-overlay h2 {
+      padding-top: 7rem;
+      padding-bottom: 4.6rem;
+      transition: 0.5s ease;
+
+  }
+    .card-img-overlay p {
+      padding: 0 7rem;
+      transition: 0.5s ease;
+
+    }
+  }
+  @media (max-width:692px) {
+    .card-img-overlay p {
+      padding: 0 2rem;
+      font-size: 25px;
+      transition: 0.5s ease;
+
+    }
+  }
+  @media (max-width:512px) {
+    .main-content-home {
+      padding: 0 1rem;
+  }
+  }

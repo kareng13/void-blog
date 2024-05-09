@@ -1,0 +1,149 @@
+/* Footer */
+.main-content-footer{
+    padding: 0 3.1rem;
+}
+.card-container-footer {
+    background-color: #000;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 5rem;
+  }
+  .card-container-footer .card-content-footer{
+    padding: 1rem 5.4rem;
+  }
+  .card-container-footer .card-content-footer h2{
+    font-size: 55px;
+    line-height: 1.4;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 12.9rem;
+    
+  }
+  .card-content-footer .email-footer{
+    display: flex;
+    justify-content: center;
+  gap: 16.8rem;
+  padding-top: 5rem;
+  }
+  .card-content-footer .email-footer label{
+    color: #ffffffdb;
+    font-size: 15px;
+  }
+  .card-content-footer .email-footer button{
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .card-content-footer .email-footer button:hover{
+    color: #e7222c;
+    transition: 0.5s ease;
+  }
+  .card-content-footer .email-input-footer input{
+    width: 28rem;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-family: "Gupter", serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+  }
+  .card-img-footer img{
+    height: 895px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 0 3rem;
+    height: 8.4rem;
+}
+.footer-container .footer-section {
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-container .footer-section h2{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Syne", sans-serif;
+
+}
+.footer-container .footer-section-icon{
+    display: flex;
+    gap: 1rem;
+}
+.footer-container .footer-section-icon svg{
+    width: 23px;
+    height: 23px;
+}
+@media (max-width:1331px) {
+  .card-content-footer .email-input-footer input {
+    width: 21rem;
+    transition: 0.5s ease;
+  }
+  .card-content-footer .email-footer {
+    gap: 10rem;
+    transition: 0.5s ease;
+
+  }
+}
+@media (max-width:1113px) {
+  .card-container-footer .card-content-footer {
+    padding: 2.2rem 2rem;
+    transition: 0.5s ease;
+
+}
+.card-content-footer .email-footer {
+gap: 4rem;
+}
+.card-content-footer .email-input-footer input {
+  width: 15rem;
+  transition: 0.5s ease;
+}
+.card-container-footer .card-content-footer h2 {
+  padding-top: 10rem;
+}
+}
+@media (max-width:596px) {
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .footer-container {
+    padding: 1.4rem 0;
+}
+}
+@media (max-width:512px) {
+  .main-content-footer{
+    padding: 0;
+}
+}
+@media (max-width:325px) {
+  .card-img-overlay p {
+    padding: 0 1rem;
+    font-size: 30px;
+    transition: 0.5s ease;
+  }
+.card-content-footer .email-input-footer input {
+    width: 8rem;
+    transition: 0.5s ease;
+}
+.card-content-footer .email-footer button {
+  font-size: 15px;
+}
+.card-content-footer .email-footer label {
+  font-size: 13px;
+}
+}
