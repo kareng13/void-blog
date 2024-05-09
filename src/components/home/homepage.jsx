@@ -1,6 +1,6 @@
 import React from "react";
 
-function homepage() {
+function Homepage() {
   return (
     <>
       {/* home section start */}
@@ -33,7 +33,7 @@ function homepage() {
                 <div className="card-body">
                   <p className="card-date-home">10 may 2023</p>
                   <a href="">
-                    <p class="card-title-home-bg">
+                    <p className="card-title-home-bg">
                       ¿BUSCAS INSPIRACIÓN? 15 RECURSOS QUE TE SORPRENDERÁN
                     </p>
                   </a>
@@ -49,7 +49,7 @@ function homepage() {
                 <div className="card-body">
                   <p className="card-date-home">10 may 2023</p>
                   <a href="">
-                    <p class="card-title-home-bg">73 preguntas a donna fay</p>
+                    <p className="card-title-home-bg">73 preguntas a donna fay</p>
                   </a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function homepage() {
                 <div className="card-body">
                   <p className="card-date-home">10 may 2023</p>
                   <a href="">
-                    <p class="card-title-home-bg">
+                    <p className="card-title-home-bg">
                       ¿Cómo vender una enfermedad?
                     </p>
                   </a>
@@ -83,7 +83,7 @@ function homepage() {
             <span>10 may 2023</span>
             <a href="">
               <p className="card-text">
-                La historia detrás de "pti: estoy a punto de amarte" -
+                La historia detrás de &quot;pti: estoy a punto de amarte&quot; -
                 Entrevista con kay van hans
               </p>
             </a>
@@ -91,7 +91,7 @@ function homepage() {
         </div>
         {/* home secc part 2 end */}
 
-        {/* home secc part 3 star */}
+        {/* home secc part 3 start */}
         <div className="card-home-popular-container main-content-home">
           <div className="title-home-popular">
             <h2>Lo más popular</h2>
@@ -158,8 +158,8 @@ function homepage() {
         {/* home secc part 3 end */}
       </div>
       {/* home section end*/}
-      </>
+    </>
   );
 }
 
-export default homepage;
+export default Homepage;

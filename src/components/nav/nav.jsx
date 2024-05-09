@@ -1,7 +1,7 @@
-import React, {useState
-} from 'react'
+import React, {useState} from "react";
 
-function nav() {
+
+function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -107,4 +107,4 @@ function nav() {
   )
 }
 
-export default nav
+export default Nav
